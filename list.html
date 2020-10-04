@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title> Meus Livros </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Gabriela, Lais e Flavia">
+  <meta name="description" content="Site para cadastro de livros e controle de leitura">
+  <meta name="keywords" content="html5, tecnologia">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/form.css">
+  <link rel="stylesheet" href="style/list.css">
+</head>
+
+<body class="no-js">
+
+  <header class="header">
+    <a href="img/logo.png" class="logo-text">Meus Livros</a>
+
+    <button style="display: none;" class="header__btnMenu"> <i class="fas fa-bars fa-2x"></i> <span
+        class="sr-only">Menu</span></button>
+
+    <nav class="header__nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html">Cadastrar</a></li>
+        <li><a href="list.html">Minha lista</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="espacamento">
+    <table class="tabela-lista">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Título</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <h2 class="footer__logo">Meus Livros</h2>
+
+      <p>O maior e melhor meio de gerenciar sua leitura.</p>
+      <p>Copyright &copy; 2020</p>
+
+
+      <ul class="footer__links">
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Siga-nos</a></li>
+        <li><a href="#">Meus Livros no celular</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/menu.js"></script>
+
+
+  <script src="js/main.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
